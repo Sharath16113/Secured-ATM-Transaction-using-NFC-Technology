@@ -1,0 +1,19 @@
+{
+  "name": "nfc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sharath16113/Secured-ATM-Transaction-using-NFC-Technology.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sharath16113/Secured-ATM-Transaction-using-NFC-Technology/issues"
+  },
+  "homepage": "https://github.com/Sharath16113/Secured-ATM-Transaction-using-NFC-Technology#readme"
+}
