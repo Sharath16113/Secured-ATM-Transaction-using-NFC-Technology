@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/image"
+    android:orientation="vertical" >
+ 
+      <TextView
+        android:id="@+id/encrypt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+       
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:visibility="invisible"
+        android:autoLink="web"
+        android:textColor="#404040" /> 
+ 
+    <EditText
+        android:id="@+id/encrypteddata "
+        style="@android:style/Widget.EditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:visibility="invisible"
+        android:lines="5" >
+    </EditText> 
+
+    <TextView
+        android:id="@+id/otppass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:visibility="invisible"
+        android:text="Enter OTP : "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#404040" />
+
+    <EditText
+        android:id="@+id/otp"
+        style="@android:style/Widget.EditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:visibility="invisible"
+        android:hint="Please Enter the OTP"
+        android:inputType="text" />
+
+    <!-- Footer Start -->
+
+    <ImageButton
+        android:id="@+id/readdata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dip"
+        android:visibility="invisible"
+        android:src="@drawable/read" />
+
+    <TextView
+        android:id="@+id/validate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="10dp" />
+
+</LinearLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+           android:textStyle="bold"
+            android:text="ENTER BILL NUMBER AND AMOUNT"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" />
+       
+
+        <LinearLayout
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="Bill Number:"
+                 android:textColor="#FFFFFF"
+                  android:textStyle="bold"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/billno"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.0"
+                android:editable="false"
+                android:ems="10"
+                 android:textColor="#FFFFFF"
+                android:inputType="text" >
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="Amount:"
+                 android:textColor="#FFFFFF"
+                  android:textStyle="bold"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/amount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                 android:textColor="#FFFFFF"
+                android:layout_weight="2.0"
+                android:inputType="text" />
+        </LinearLayout>
+
+        
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="ATM Pin"
+                 android:textColor="#FFFFFF"
+                  android:textStyle="bold"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/pin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.0"
+                 android:textColor="#FFFFFF"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+        
+        
+        
+
+        <Button
+            android:id="@+id/write"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dip"
+            android:background="@drawable/user_profile_image_background"
+            android:text="Read" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        
+        
+    <item
+        		android:id="@+id/nfccardread"
+        		 android:showAsAction="never"       
+      		  android:title="BILLING PROCESS"/>
+    
+    
+   
+    <item
+        android:id="@+id/changepass" 
+         android:showAsAction="never"      
+        android:title="CHANGE PASSWORD"/>
+    <item        
+        android:id="@+id/logout"  
+         android:showAsAction="never"      
+        android:title="LOGOUT"/>
+    
+       
+    </menu>

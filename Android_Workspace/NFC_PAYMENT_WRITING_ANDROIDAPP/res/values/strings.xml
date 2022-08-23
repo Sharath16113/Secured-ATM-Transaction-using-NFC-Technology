@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NFC Payment_Writing_Application</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    
+   
+    <string name="userreg">User Registration </string>
+    <string name="userid">User Id</string>
+    <string name="password">Password</string>
+    <string name="username">Name</string>
+    <string name="usergender">Gender</string>
+    <string name="usercity">City</string>
+    <string name="usermobile">Mobile no</string>
+    <string name="spinner_title">Select Process Mode</string>
+    <string name="title_activity_patientdetails">Patientdetails</string>
+    <string name="title_activity_nfcpatientwriting">Nfcpatientwriting</string>
+    
+    
+    
+    
+    
+    <string name="error_detected">TAG NOT DETECTED. WHERE DO YOU WANT WRITE!?!?</string>
+    <string name="ok_writing">I HAVE WRITTEN YOUR ENCRYPTED DATA INTO TAG!!</string>
+    <string name="error_writing">ERROR DURING WRITING. ARE YOU SURE THAT YOUR TAG IS CLOSE TO YOUR MOBILE PHONE?</string>
+    <string name="ok_detection">TAG DETECTED: </string>
+
+</resources>

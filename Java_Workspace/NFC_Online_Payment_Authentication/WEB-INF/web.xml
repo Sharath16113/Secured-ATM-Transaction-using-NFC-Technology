@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.drw.action.LoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>LoginServlet</servlet-name>
+   <url-pattern>/LoginServlet</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>Loginbank</servlet-name>
+    <servlet-class>com.drw.action.Loginbank</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>Loginbank</servlet-name>
+   <url-pattern>/Loginban</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>AddSalesServlet</servlet-name>
+    <servlet-class>com.drw.action.AddSalesServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AddSalesServlet</servlet-name>
+   <url-pattern>/AddSalesServlet</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>Upload_FP</servlet-name>
+    <servlet-class>com.util.Upload_FP</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>Upload_FP</servlet-name>
+   <url-pattern>/Upload_FP</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>Upload_FP_verify</servlet-name>
+    <servlet-class>com.util.Upload_FP_verify</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>Upload_FP_verify</servlet-name>
+   <url-pattern>/Upload_FP_verify</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>AddCategoryServlet</servlet-name>
+    <servlet-class>com.drw.action.AddCategoryServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AddCategoryServlet</servlet-name>
+   <url-pattern>/AddCategoryServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>UpdateCategoryServlet</servlet-name>
+    <servlet-class>com.drw.action.UpdateCategoryServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>UpdateCategoryServlet</servlet-name>
+   <url-pattern>/UpdateCategoryServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>ChangePwdServlet</servlet-name>
+    <servlet-class>com.drw.action.ChangePwdServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>ChangePwdServlet</servlet-name>
+   <url-pattern>/ChangePwdServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>SendSMS</servlet-name>
+    <servlet-class>com.drw.action.SendSMS</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>SendSMS</servlet-name>
+   <url-pattern>/SendSMS</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>VerifySMS</servlet-name>
+    <servlet-class>com.drw.action.VerifySMS</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>VerifySMS</servlet-name>
+   <url-pattern>/VerifySMS</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>UpdateSubCategoryServlet</servlet-name>
+    <servlet-class>com.drw.action.UpdateSubCategoryServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>UpdateSubCategoryServlet</servlet-name>
+   <url-pattern>/UpdateSubCategoryServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>AddSubCategoryServlet</servlet-name>
+    <servlet-class>com.drw.action.AddSubCategoryServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AddSubCategoryServlet</servlet-name>
+   <url-pattern>/AddSubCategoryServlet</url-pattern>
+</servlet-mapping>
+<servlet>
+   <servlet-name>AttachFile</servlet-name>
+    <servlet-class>com.drw.action.AttachFile</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AttachFile</servlet-name>
+   <url-pattern>/AttachFile</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>AloginServlet</servlet-name>
+    <servlet-class>com.drw.action.AloginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AloginServlet</servlet-name>
+   <url-pattern>/AloginServlet</url-pattern>
+</servlet-mapping>
+
+ <servlet>
+    <servlet-name>Addcust</servlet-name>
+    <servlet-class>com.drw.action.Addcust</servlet-class>
+</servlet>
+   <servlet-mapping>
+   <servlet-name>Addcust</servlet-name>
+   <url-pattern>/Addcust</url-pattern>
+   
+   </servlet-mapping>
+   
+   <servlet>
+    <servlet-name>changepassword</servlet-name>
+    <servlet-class>com.drw.action.changepassword</servlet-class>
+    
+</servlet>
+   <servlet-mapping>
+   <servlet-name>changepassword</servlet-name>
+   <url-pattern>/changepassword</url-pattern>
+   
+   </servlet-mapping>
+   
+    <servlet>
+    <servlet-name>RegisterUpdate</servlet-name>
+    <servlet-class>com.drw.action.RegisterUpdate</servlet-class>
+    
+</servlet>
+   <servlet-mapping>
+   <servlet-name>RegisterUpdate</servlet-name>
+   <url-pattern>/RegisterUpdate</url-pattern>
+   
+   </servlet-mapping>
+   <servlet>
+    <servlet-name>query</servlet-name>
+    <servlet-class>com.drw.action.query</servlet-class>
+    
+</servlet>
+   <servlet-mapping>
+   <servlet-name>query</servlet-name>
+   <url-pattern>/query</url-pattern>
+   
+   </servlet-mapping>
+   <servlet>
+    <servlet-name>qutoation</servlet-name>
+    <servlet-class>com.drw.action.qutoation</servlet-class>
+    
+</servlet>
+   <servlet-mapping>
+   <servlet-name>qutoation</servlet-name>
+   <url-pattern>/qutoation</url-pattern>
+   
+   </servlet-mapping>
+    <servlet>
+    <servlet-name>q1</servlet-name>
+    <servlet-class>com.drw.action.q1</servlet-class>
+    
+</servlet>
+   <servlet-mapping>
+   <servlet-name>q1</servlet-name>
+   <url-pattern>/q1</url-pattern>
+    </servlet-mapping>
+    
+   <servlet>
+    <servlet-name>createquo</servlet-name>
+    <servlet-class>com.drw.action.createquo</servlet-class>
+    </servlet>
+   <servlet-mapping>
+   <servlet-name>createquo</servlet-name>
+   <url-pattern>/createquo</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+    <servlet-name>xx</servlet-name>
+    <servlet-class>com.drw.action.xx</servlet-class>
+    </servlet>
+   <servlet-mapping>
+   <servlet-name>xx</servlet-name>
+   <url-pattern>/xx</url-pattern>
+     </servlet-mapping>
+     
+     
+      <servlet>
+    <servlet-name>confirm</servlet-name>
+    <servlet-class>com.drw.action.confirm</servlet-class>
+    </servlet>
+   <servlet-mapping>
+   <servlet-name>confirm</servlet-name>
+   <url-pattern>/confirm</url-pattern>
+     </servlet-mapping>
+     
+     
+     <servlet>
+    <servlet-name>createquo1</servlet-name>
+    <servlet-class>com.drw.action.createquo1</servlet-class>
+    </servlet>
+   <servlet-mapping>
+   <servlet-name>createquo1</servlet-name>
+   <url-pattern>/createquo1</url-pattern>
+     </servlet-mapping>
+     
+     
+     <servlet>
+    <servlet-name>search</servlet-name>
+    <servlet-class>com.drw.action.search</servlet-class>
+    </servlet>
+   <servlet-mapping>
+   <servlet-name>search</servlet-name>
+   <url-pattern>/search</url-pattern>
+     </servlet-mapping>
+     
+     
+     <servlet>
+<servlet-name>AddProductDatabase</servlet-name>
+<servlet-class>com.drw.action.AddProductDatabase</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>AddProductDatabase</servlet-name>
+<url-pattern>/AddProductDatabase</url-pattern>
+</servlet-mapping>
+     
+     
+     <servlet>
+    <servlet-name>Changepwd2</servlet-name>
+    <servlet-class>com.drw.action.Changepwd2</servlet-class>
+    </servlet>
+   <servlet-mapping>
+   <servlet-name>Changepwd2</servlet-name>
+   <url-pattern>/Changepwd2</url-pattern>
+     </servlet-mapping>
+     <servlet>
+    <servlet-name>ReadCard</servlet-name>
+    <servlet-class>com.drw.action.ReadCard</servlet-class>
+    </servlet>
+   <servlet-mapping>
+   <servlet-name>ReadCard</servlet-name>
+   <url-pattern>/ReadCard</url-pattern>
+     </servlet-mapping>
+     
+<!-- All About Credit Card Verification -->  
+
+	<servlet>
+		<servlet-name>PaymentVerification</servlet-name>
+		<servlet-class>com.drw.action.PaymentVerification</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PaymentVerification</servlet-name>
+		<url-pattern>/PaymentVerification</url-pattern>
+	</servlet-mapping>   
+	</web-app>

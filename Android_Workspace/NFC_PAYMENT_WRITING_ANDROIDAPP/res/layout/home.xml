@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/exception"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        
+        android:text=" An Online Security Protocol for NFC Payment "
+       android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#FF0066" >
+    </TextView>
+    
+
+    <TextView
+        android:id="@+id/exception1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/exception"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:paddingTop="90dip"
+        android:textStyle="bold"
+        android:text="Select On Menu Button to Get Options"
+        android:textColor="#fff" />
+
+</RelativeLayout>

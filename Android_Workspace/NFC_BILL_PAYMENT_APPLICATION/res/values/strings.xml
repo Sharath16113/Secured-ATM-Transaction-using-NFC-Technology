@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NFC_BILL_PAYMENT_APPLICATION</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="userreg">User Registration </string>
+    <string name="userid">User Id</string>
+    <string name="password">Password</string>
+    <string name="username">Name</string>
+    <string name="usergender">Gender</string>
+    <string name="usercity">City</string>
+    <string name="usermobile">Mobile no</string>
+    <string name="spinner_title">Select Process Mode</string>
+    <string name="title_activity_patientdetails">Patientdetails</string>
+    <string name="title_activity_nfcpatientwriting">Nfcpatientwriting</string>
+    <string name="error_detected">TAG NOT DETECTED. WHERE DO YOU WANT WRITE!?!?</string>
+    <string name="ok_writing">I HAVE WRITTEN YOUR ENCRYPTED DATA INTO TAG!!</string>
+    <string name="error_writing">ERROR DURING WRITING. ARE YOU SURE THAT YOUR TAG IS CLOSE TO YOUR MOBILE PHONE?</string>
+    <string name="ok_detection">TAG DETECTED: </string>
+    <string name="insufficient">YOUR CARD IS HAVING INSUFFICIENT BALANCE PLEASE STOP HERE ITSELF!?!?</string>
+    <string name="fal">YOUR CARD IS MISMATCHING,PLEASE TAP YOUR CORRECT CARD AND YOUR NOT ABLE TO PAY BY THIS CARD!!</string>
+    <string name="succ">YOUR PAYMENT HAS BEEN DONE SUCCESSFULLY YOU CAN CROSS THIS TOLLGATE!!</string>
+    <string name="title_activity_otp">OTP</string>
+    <string name="title_activity_fingerprint">Fingerprint</string>
+
+</resources>

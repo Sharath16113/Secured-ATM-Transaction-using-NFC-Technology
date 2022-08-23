@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/image"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+             android:textStyle="bold"
+            android:text="Read Vehicle Details FRom NFC Card"
+            android:textColor="#B0171F"
+            android:textSize="20dp" />
+       
+
+        <LinearLayout
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="Card No       :"
+                android:textStyle="bold"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/cardno"
+                android:layout_width="0dp"
+                  android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.0"
+                android:editable="false"
+                android:ems="10"
+                android:inputType="text" >
+
+                <requestFocus />
+            </TextView>
+        </LinearLayout>
+
+       <!--  <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="Vehicle No"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/vehicleno"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.0"
+                android:ems="10"
+                android:inputType="text" >
+
+                <requestFocus />
+            </EditText>
+        </LinearLayout> -->
+        <!-- layout for Password -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                 android:textStyle="bold"
+                android:text="DOR             :"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/dor"
+                  android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.0"
+                android:inputType="text" />
+        </LinearLayout>
+
+        
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                 android:textStyle="bold"
+                android:text="Vehicle Type:"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/vtype"
+                android:layout_width="0dp"
+                  android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.0"
+                android:inputType="text" />
+        </LinearLayout>
+
+      <!--   <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="Vmodel"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/model"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.0"
+                android:inputType="text" />
+        </LinearLayout> -->
+        
+        
+         <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.01"
+            android:orientation="horizontal"
+            android:padding="10dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:text="Card Expdte :"
+                 android:textStyle="bold"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/expdate"
+                android:layout_width="0dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.0"
+                android:inputType="text" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dip"
+            android:background="@drawable/user_profile_image_background"
+            android:text="BACK" />
+    </LinearLayout>
+
+</RelativeLayout>

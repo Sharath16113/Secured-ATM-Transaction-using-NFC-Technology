@@ -1,0 +1,21 @@
+
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        
+        
+         <item
+        		android:id="@+id/nfccardwrite"
+        		 android:showAsAction="never"       
+      		  android:title="NFC_CARD WRITING PROCESS"/>
+   
+    
+    <item
+        android:id="@+id/changepass" 
+         android:showAsAction="never"      
+        android:title="CHANGE PASSWORD"/>
+    <item        
+        android:id="@+id/logout"  
+         android:showAsAction="never"      
+        android:title="LOGOUT"/>
+    
+       
+    </menu>

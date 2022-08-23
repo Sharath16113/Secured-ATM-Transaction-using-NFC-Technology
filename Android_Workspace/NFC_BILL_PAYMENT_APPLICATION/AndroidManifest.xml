@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nfc_bill_payment_application"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="17" />
+    
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.nfc_bill_payment_application.IPActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nfc_bill_payment_application.MainActivity" />
+        <activity android:name="com.example.nfc_bill_payment_application.HomeScreen" />
+        <activity android:name="com.example.nfc_bill_payment_application.ChangePassword" />
+        <activity android:name="com.example.nfc_bill_payment_application.WriteFragment" />
+        <activity android:name="com.example.nfc_bill_payment_application.ReadFragment" />
+        <activity android:name="com.example.nfc_bill_payment_application.Viewreadeddata" />
+        <activity android:name="com.example.nfc_bill_payment_application.TransactionDetails" />
+        <activity android:name="com.example.nfc_bill_payment_application.Tollcollection" />
+        <activity android:name="com.example.nfc_bill_payment_application.Viewvevehicls" />
+        <activity android:name="com.example.nfc_bill_payment_application.Billnumber" />
+        <activity
+            android:name="com.example.nfc_bill_payment_application.OTP"
+            android:label="@string/title_activity_otp" >
+        </activity>
+        <activity
+            android:name="com.example.nfc_bill_payment_application.Fingerprint"
+            android:label="@string/title_activity_fingerprint" >
+        </activity>
+    </application>
+
+</manifest>
+        
