@@ -1,0 +1,179 @@
+InnoDB: The first specified data file .\ibdata1 did not exist:
+InnoDB: a new database to be created!
+220620 17:47:46  InnoDB: Setting file .\ibdata1 size to 10 MB
+InnoDB: Database physically writes the file full: wait...
+220620 17:47:46  InnoDB: Log file .\ib_logfile0 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile0 size to 24 MB
+InnoDB: Database physically writes the file full: wait...
+220620 17:47:46  InnoDB: Log file .\ib_logfile1 did not exist: new to be created
+InnoDB: Setting log file .\ib_logfile1 size to 24 MB
+InnoDB: Database physically writes the file full: wait...
+InnoDB: Doublewrite buffer not found: creating new
+InnoDB: Doublewrite buffer created
+InnoDB: Creating foreign key constraint system tables
+InnoDB: Foreign key constraint system tables created
+220620 17:47:46  InnoDB: Started; log sequence number 0 0
+220620 17:47:47 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: ready for connections.
+Version: '5.0.15-nt'  socket: ''  port: 3306  Official MySQL binary
+220620 20:17:23 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Normal shutdown
+
+220620 20:17:23  InnoDB: Starting shutdown...
+220620 20:17:25  InnoDB: Shutdown completed; log sequence number 0 75147
+220620 20:17:25 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Shutdown complete
+
+220621 11:16:27  InnoDB: Started; log sequence number 0 75147
+220621 11:16:27 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: ready for connections.
+Version: '5.0.15-nt'  socket: ''  port: 3306  Official MySQL binary
+220715 20:11:58 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Normal shutdown
+
+220715 20:11:58  InnoDB: Starting shutdown...
+220715 20:11:59  InnoDB: Shutdown completed; log sequence number 0 100066
+220715 20:11:59 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Shutdown complete
+
+220715 20:12:48  InnoDB: Started; log sequence number 0 100066
+220715 20:12:48 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: ready for connections.
+Version: '5.0.15-nt'  socket: ''  port: 3306  Official MySQL binary
+220715 20:19:59 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Normal shutdown
+
+220715 20:20:00  InnoDB: Starting shutdown...
+220715 20:20:02  InnoDB: Shutdown completed; log sequence number 0 100066
+220715 20:20:02 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Shutdown complete
+
+220715 20:20:41  InnoDB: Started; log sequence number 0 100066
+220715 20:20:41 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: ready for connections.
+Version: '5.0.15-nt'  socket: ''  port: 3306  Official MySQL binary
+220715 23:47:35 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Normal shutdown
+
+220715 23:47:35  InnoDB: Starting shutdown...
+220715 23:47:38  InnoDB: Shutdown completed; log sequence number 0 100066
+220715 23:47:38 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Shutdown complete
+
+220716 18:52:00  InnoDB: Started; log sequence number 0 100066
+220716 18:52:00 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: ready for connections.
+Version: '5.0.15-nt'  socket: ''  port: 3306  Official MySQL binary
+220719 13:48:24 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Normal shutdown
+
+220719 13:48:24  InnoDB: Starting shutdown...
+220719 13:48:26  InnoDB: Shutdown completed; log sequence number 0 100066
+220719 13:48:26 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Shutdown complete
+
+220721 21:55:22  InnoDB: Started; log sequence number 0 100066
+220721 21:55:22 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: ready for connections.
+Version: '5.0.15-nt'  socket: ''  port: 3306  Official MySQL binary
+220724 22:24:47 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Normal shutdown
+
+220724 22:24:47  InnoDB: Starting shutdown...
+220724 22:24:48  InnoDB: Shutdown completed; log sequence number 0 102480
+220724 22:24:48 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Shutdown complete
+
+220724 22:25:33  InnoDB: Started; log sequence number 0 102480
+220724 22:25:33 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: ready for connections.
+Version: '5.0.15-nt'  socket: ''  port: 3306  Official MySQL binary
+220726 22:16:26 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Normal shutdown
+
+220726 22:16:26  InnoDB: Starting shutdown...
+220726 22:16:27  InnoDB: Shutdown completed; log sequence number 0 102480
+220726 22:16:27 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Shutdown complete
+
+220726 22:17:12  InnoDB: Started; log sequence number 0 102480
+220726 22:17:16 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: ready for connections.
+Version: '5.0.15-nt'  socket: ''  port: 3306  Official MySQL binary
+220803 23:24:35 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Normal shutdown
+
+220803 23:24:35  InnoDB: Starting shutdown...
+220803 23:24:38  InnoDB: Shutdown completed; log sequence number 0 102480
+220803 23:24:38 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Shutdown complete
+
+220803 23:25:35  InnoDB: Started; log sequence number 0 102480
+220803 23:25:35 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: ready for connections.
+Version: '5.0.15-nt'  socket: ''  port: 3306  Official MySQL binary
+220810 21:08:49 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Normal shutdown
+
+220810 21:08:49  InnoDB: Starting shutdown...
+220810 21:08:51  InnoDB: Shutdown completed; log sequence number 0 102480
+220810 21:08:51 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Shutdown complete
+
+220810 21:09:37  InnoDB: Started; log sequence number 0 102480
+220810 21:09:37 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: ready for connections.
+Version: '5.0.15-nt'  socket: ''  port: 3306  Official MySQL binary
+220811 23:33:33 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Normal shutdown
+
+220811 23:33:33  InnoDB: Starting shutdown...
+220811 23:33:36  InnoDB: Shutdown completed; log sequence number 0 102480
+220811 23:33:36 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Shutdown complete
+
+220811 23:34:25  InnoDB: Started; log sequence number 0 102480
+220811 23:34:25 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: ready for connections.
+Version: '5.0.15-nt'  socket: ''  port: 3306  Official MySQL binary
+220813  0:20:35 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Normal shutdown
+
+220813  0:20:35  InnoDB: Starting shutdown...
+220813  0:20:36  InnoDB: Shutdown completed; log sequence number 0 102480
+220813  0:20:36 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Shutdown complete
+
+220813  0:21:14  InnoDB: Started; log sequence number 0 102480
+220813  0:21:15 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: ready for connections.
+Version: '5.0.15-nt'  socket: ''  port: 3306  Official MySQL binary
+220813  0:21:21 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Normal shutdown
+
+220813  0:21:21  InnoDB: Starting shutdown...
+220813  0:21:23  InnoDB: Shutdown completed; log sequence number 0 102480
+220813  0:21:23 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Shutdown complete
+
+220813  9:46:06  InnoDB: Started; log sequence number 0 102480
+220813  9:46:06 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: ready for connections.
+Version: '5.0.15-nt'  socket: ''  port: 3306  Official MySQL binary
+220814 21:13:30 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Normal shutdown
+
+220814 21:13:30  InnoDB: Starting shutdown...
+220814 21:13:31  InnoDB: Shutdown completed; log sequence number 0 102480
+220814 21:13:31 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Shutdown complete
+
+220814 21:14:07  InnoDB: Started; log sequence number 0 102480
+220814 21:14:07 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: ready for connections.
+Version: '5.0.15-nt'  socket: ''  port: 3306  Official MySQL binary
+220814 21:25:19 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Normal shutdown
+
+220814 21:25:20  InnoDB: Starting shutdown...
+220814 21:25:22  InnoDB: Shutdown completed; log sequence number 0 102480
+220814 21:25:22 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Shutdown complete
+
+220814 21:25:57  InnoDB: Started; log sequence number 0 102480
+220814 21:25:57 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: ready for connections.
+Version: '5.0.15-nt'  socket: ''  port: 3306  Official MySQL binary
+220814 21:40:57 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Normal shutdown
+
+220814 21:40:57  InnoDB: Starting shutdown...
+220814 21:40:58  InnoDB: Shutdown completed; log sequence number 0 102480
+220814 21:40:58 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Shutdown complete
+
+220814 21:41:45  InnoDB: Started; log sequence number 0 102480
+220814 21:41:48 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: ready for connections.
+Version: '5.0.15-nt'  socket: ''  port: 3306  Official MySQL binary
+220814 22:40:18 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Normal shutdown
+
+220814 22:40:18  InnoDB: Starting shutdown...
+220814 22:40:20  InnoDB: Shutdown completed; log sequence number 0 102480
+220814 22:40:20 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Shutdown complete
+
+220814 22:41:33  InnoDB: Started; log sequence number 0 102480
+220814 22:41:33 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: ready for connections.
+Version: '5.0.15-nt'  socket: ''  port: 3306  Official MySQL binary
+220817 15:38:31 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Normal shutdown
+
+220817 15:38:31  InnoDB: Starting shutdown...
+220817 15:38:32  InnoDB: Shutdown completed; log sequence number 0 102480
+220817 15:38:32 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Shutdown complete
+
+220817 15:44:34  InnoDB: Started; log sequence number 0 102480
+220817 15:44:37 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: ready for connections.
+Version: '5.0.15-nt'  socket: ''  port: 3306  Official MySQL binary
+220818 17:32:19 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Normal shutdown
+
+220818 17:32:19  InnoDB: Starting shutdown...
+220818 17:32:21  InnoDB: Shutdown completed; log sequence number 0 102480
+220818 17:32:21 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: Shutdown complete
+
+220818 22:14:36  InnoDB: Started; log sequence number 0 102480
+220818 22:14:36 [Note] C:\Program Files (x86)\MySQL\MySQL Server 5.0\bin\mysqld-nt: ready for connections.
+Version: '5.0.15-nt'  socket: ''  port: 3306  Official MySQL binary
